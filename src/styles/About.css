@@ -1,0 +1,82 @@
+.about-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-size: cover;
+    color: white;
+  }
+  
+  .about-content {
+    max-width: 50%;
+    margin-right: 40px;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: "Alatsi", sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  span {
+    color: #f85390;
+  }
+  
+  .about-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .about-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    max-width: 40%;
+  }
+  
+  .about-image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  @media (max-width: 768px) {
+    .about-section {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+  
+    .about-content {
+      max-width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+      text-align: center; 
+    }
+  
+    .about-image-container {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  
+    .about-image {
+      max-width: 90%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-title {
+      font-size: 2rem;
+    }
+  
+    .about-description {
+      font-size: 1rem;
+    }
+  }
+  

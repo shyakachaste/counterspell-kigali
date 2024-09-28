@@ -8,7 +8,7 @@ const HeroSection = () => {
       </a>
       <div className="hero-content">
         <h1 className="hero-title">Counterspell Kigali</h1>
-        <p className="hero-subtitle">Join the ultimate 12-hour game jam for developers & gamers worldwide!</p>
+        <p className="hero-subtitle">A beginner-friendly game jam for high schoolers in Kigali!</p>
         <div className="hero-buttons">
           <a href="/register">
             <button className="btn primary-btn">Register Now</button>
