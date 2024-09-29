@@ -1,0 +1,88 @@
+  .faq-container {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .faq-title {
+    font-size: 2.2rem; 
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: 'retro';
+  }
+  
+  .faq-subtitle {
+    font-size: 1.2rem;
+    color: #cccccc;
+    margin-bottom: 40px;
+  }
+  
+  .faq-subtitle a {
+    color: #8ac6d1;
+    text-decoration: none;
+  }
+  
+  .faq-subtitle a:hover {
+    text-decoration: underline;
+  }
+  
+  .faq-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .faq-card {
+    background-color: #004e75;
+    color: #ffffff;
+    padding: 30px; 
+    border-radius: 10px;
+    width: 320px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .faq-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .faq-card-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .faq-card-content {
+    font-size: 1.2rem; 
+    line-height: 1.6;
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+    .faq-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .faq-card {
+      width: 90%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .faq-title {
+      font-size: 2.1rem; 
+    }
+  
+    .faq-card-title {
+      font-size: 1.6rem; 
+    }
+  
+    .faq-card-content {
+      font-size: 1rem; 
+    }
+  }
+  

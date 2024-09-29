@@ -1,0 +1,26 @@
+.footer {
+    background-color: #1D2B3A;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  .github-link {
+    color: #61dafb;
+    text-decoration: none;
+  }
+  
+  .github-link:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      font-size: 0.9rem;
+    }
+  }
+  
