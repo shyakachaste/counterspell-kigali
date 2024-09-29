@@ -10,7 +10,7 @@ const HeroSection = () => {
         <h1 className="hero-title">Counterspell Kigali</h1>
         <p className="hero-subtitle">A beginner-friendly game jam for high schoolers in Kigali!</p>
         <div className="hero-buttons">
-          <a href="/register">
+          <a href="https://lu.ma/za3el7cd" target="_blank" rel="noreferrer">
             <button className="btn primary-btn">Register Now</button>
           </a>
           <a href="https://counterspell.hackclub.com/" target="_blank" rel="noreferrer">
