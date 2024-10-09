@@ -6,14 +6,14 @@ const Schedule = () => {
     { time: '8:00 AM', title: 'Doors open' },
     { time: '8:45 AM', title: 'Opening ceremony' },
     { time: '9:30 AM', title: 'Breakfast' },
-    { time: '10:00 PM', title: 'Start working on your game!' },
-    { time: '11:00 PM', title: 'Gamedev workshop 1' },
-    { time: '1:00 PM', title: 'Lunch' },
-    { time: '2:00 PM', title: 'Activity 1' },
-    { time: '4:00 PM', title: 'Lightning talks' },
-    { time: '5:00 PM', title: 'Gamedev workshop 2' },
-    { time: '7:00 PM', title: 'Game demos' },
-    { time: '8:00 PM', title: 'Closing ceremony' }
+    { time: '10:30 AM', title: 'Start working on your game!' },
+    { time: '11:30 AM', title: 'Gamedev workshop 1' },
+    { time: '1:30 PM', title: 'Lunch' },
+    { time: '2:30 PM', title: 'Activity 1' },
+    { time: '4:30 PM', title: 'Lightning talks' },
+    { time: '5:30 PM', title: 'Gamedev workshop 2' },
+    { time: '7:30 PM', title: 'Game demos' },
+    { time: '8:30 PM', title: 'Closing ceremony' }
   ];
 
   return (
