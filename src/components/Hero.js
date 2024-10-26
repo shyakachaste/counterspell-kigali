@@ -14,7 +14,7 @@ const HeroSection = () => {
             <button className="btn primary-btn">Register Now</button>
           </a>
           <a href="https://hcb.hackclub.com/donations/start/counterspell-kigali-city" target="_blank" rel="noreferrer">
-            <button className="btn secondary-btn">Donate</button>
+            <button className="btn secondary-btn">Donate Now</button>
           </a>
         </div>
       </div>
